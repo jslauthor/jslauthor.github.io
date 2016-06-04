@@ -1,0 +1,374 @@
+/* Vars */
+
+$bg_color: #FFFEF6;
+$base_margin: 16px;
+$content_width: 1155px;
+$base_color: #444039;
+$nav_link_color: #B7AC9A;
+$teal: #08C2B2;
+$magenta: #FE4565;
+$default_radius: 3px;
+
+/* Mixins */
+
+@define-mixin font $name: museo-sans, $weight: 500, $style: normal {
+    font-family: $name;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@define-mixin h3 {
+  @mixin font museo-sans, 500, normal;
+  font-size: 17px;
+}
+
+@define-mixin sans100Italic {
+  @mixin font museo-sans, 300, italic;
+}
+
+@define-mixin sans300Italic {
+  @mixin font museo-sans, 300, italic;
+}
+
+@define-mixin sans500Italic {
+  @mixin font museo-sans, 500, italic;
+}
+
+@define-mixin sans900 {
+  @mixin font museo-sans, 900;
+}
+
+@define-mixin sansBlockquote $size: 14px {
+  @mixin font museo-sans, 500, normal;
+  font-size: $size;
+}
+
+@define-mixin h2 $size: 38px {
+  @mixin font museo-slab, 900;
+  font-size: $size;
+}
+
+
+@define-mixin slabFont $size: 41px {
+  @mixin font museo-slab;
+  font-size: $size;
+}
+
+@define-mixin slabBlockquote $size: 20px {
+  @mixin font museo-slab, 500, italic;
+  font-size: $size;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  color: $magenta;
+}
+
+p {
+  margin: 10px 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  @mixin font;
+  color: $base_color;
+}
+
+h1 {
+  @mixin slabFont;
+  line-height: 1.25;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+h2 {
+  @mixin h2;
+  line-height: 1.25;
+  margin: 15px 0;
+  padding: 0;
+}
+
+h3 {
+  @mixin h3;
+  color: $magenta;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h5 {
+  @mixin sans500Italic;
+  color: $teal;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+@component navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @descendent link {
+    text-decoration: none;
+    color: $nav_link_color;
+    margin: 10px;
+    transition: all .5s ease;
+    font-size: 16px;
+    font-weight: 300;
+
+    &:hover {
+      color: color($nav_link_color lightness(50%));
+    }
+  }
+
+  @descendent social {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@component photo-hero {
+  background-image:linear-gradient(128deg, #f6f6f6 0%, #e8e6e2 100%);
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 430px;
+}
+
+.twitter-follow-button {
+  margin-left: 10px;
+}
+
+#app {
+  margin: 0 $base_margin;
+  width: 100%;
+  height: auto;
+}
+
+#trianglify {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0; left: 0; bottom: 0; right: 0;
+  z-index: -1;
+  background: linear-gradient(135deg, #fe4565 0%,#f4c9a9 50%,#3a958d 100%);
+}
+
+section, footer {
+  min-height: 100px;
+  background-color: $bg_color;
+  margin: $base_margin 0;
+  padding: $base_margin;
+}
+
+.centered {
+    max-width: $content_width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@component hero {
+
+  @descendent info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @modifier h1 {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 50px;
+  }
+
+  @descendent mailing-list {
+    flex-grow: 1;
+    max-width: 700px;
+    font-size: 18px;
+  }
+
+  @descendent logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @modifier logo {
+    margin: 10px;
+  }
+
+}
+
+.fa-external-link {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+@component who-am-i {
+  padding: $base_margin;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  counter-reset: li;
+
+  @descendent copy {
+    flex-grow: 1;
+    max-width: 590px;
+  }
+
+  @descendent personality {
+    max-width: 330px;
+    width: 100%;
+    margin-top: -300px;
+    a { text-decoration: none; color: $base_color; }
+    p { line-height: 1.2; }
+    h1, h2, h3, h4, h5, h6 { @mixin font; margin: 0; padding: 0; color: $base_color; }
+    h2 { font-weight: 900; }
+    h3 { font-weight: 900; text-transform: none; font-size: 20px; }
+    h4 { font-size: 20px; margin-bottom: 10px; }
+  }
+
+  @descendent list {
+    font-size: 25px;
+    padding-left: 5px;
+  }
+
+  @modifier list-item {
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+    align-items: center;
+    &:before {
+      @mixin sans900;
+      color: color($base_color lightness(90%));
+      margin-right: 30px;
+      font-size: 60px;
+      content:counter(li);
+      counter-increment:li;
+    }
+  }
+
+  @descendent interests {
+    padding: 10px 0;
+    line-height: 2;
+    * { margin-right: 10px; @mixin sans100Italic; }
+  }
+}
+
+blockquote {
+  @mixin slabBlockquote;
+  border-left: 1px solid color($base_color lightness(50%));
+  margin: 0;
+  padding-left: 20px;
+}
+
+blockquote p {
+  color: $teal;
+  @mixin sansBlockquote;
+  display: flex;
+  align-items: center;
+}
+
+.block_logo {
+  margin: 0 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.email {
+  @mixin font museo-sans, 300;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid color($base_color lightness(70%));
+  border-radius: $default_radius;
+  padding: 15px;
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+.button {
+  @mixin font museo-sans, 300;
+  background-color: $teal;
+  color: white;
+  border: 1px solid $teal;
+  border-radius: $default_radius;
+  padding: 15px 20px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+@component card {
+  background-color: white;
+  border-radius: $default_radius;
+  box-shadow:0px 2px 13px 0px rgba(109,35,35,0.20);
+
+  @modifier header {
+    padding: 15px;
+    text-align: center;
+    color: $magenta;
+  }
+
+  @modifier inner {
+    padding: 25px;
+  }
+
+  @modifier border {
+    border-bottom: 4px solid $magenta;
+  }
+}
