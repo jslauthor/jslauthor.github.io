@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "original": "/public/images/portfolio/egghead2_0_list.jpg",
+      "thumbnail": "/public/images/portfolio/egghead2_0_list_thumb.jpg",
+      "description": "Egghead 2.0 UI"
+    },
+    {
+      "original": "/public/images/portfolio/egghead2_0.jpg",
+      "thumbnail": "/public/images/portfolio/egghead2_0_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egghead2_0_menu.jpg",
+      "thumbnail": "/public/images/portfolio/egghead2_0_menu_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egghead2_0_loading.jpg",
+      "thumbnail": "/public/images/portfolio/egghead2_0_loading_thumb.jpg",
+      "description": "Optional description..."
+    }
+  ]
+}

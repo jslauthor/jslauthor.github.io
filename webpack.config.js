@@ -27,14 +27,24 @@ const config = {
         loader : 'babel'
       },
       { test: /\.css$/, loader: "style-loader!css-loader!postcss-loader" },
+      { test: /\.json$/, loaders: ['json-loader'] },
       {
         test: /masonry|imagesloaded|fizzy\-ui\-utils|desandro\-|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
         loader: 'imports?define=>false&this=>window'
       }
     ]
   },
-  postcss: function () {
-      return [precss, autoprefixer, postcssImport({addDependencyTo: webpack}), postcssMixins, simpleVars, colorFunctions, postcssBEM, postcssNested];
+  postcss: function(webpack) {
+      return [
+        postcssImport({addDependencyTo: webpack}),
+        precss,
+        autoprefixer,
+        postcssMixins,
+        simpleVars,
+        colorFunctions,
+        postcssBEM,
+        postcssNested
+      ];
   }
 };
 

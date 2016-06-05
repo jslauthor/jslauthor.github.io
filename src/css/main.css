@@ -1,15 +1,5 @@
+@import './vars.css';
 @import './gallery.css';
-
-/* Vars */
-
-$bg_color: #FFFEF6;
-$base_margin: 16px;
-$content_width: 1155px;
-$base_color: #444039;
-$nav_link_color: #B7AC9A;
-$teal: #08C2B2;
-$magenta: #FE4565;
-$default_radius: 3px;
 
 /* Mixins */
 
@@ -470,10 +460,6 @@ form {
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 40px;
-}
-
-@component gallery {
-  margin: 30px 0;
 }
 
 @component skills {
