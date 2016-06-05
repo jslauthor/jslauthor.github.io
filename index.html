@@ -32,7 +32,7 @@
         <div>
           <a class="navigation__link" href="#about">about</a>
           <a class="navigation__link" href="#portfolio">porfolio</a>
-          <a class="navigation__link" href="#workWithMe">work with me</a>
+          <a class="navigation__link" href="#contact">work with me</a>
           <a class="navigation__link" href="//bleedingink.fm" target="_blank">podcast</a>
         </div>
 
@@ -136,7 +136,7 @@
                 <span>ARGs</span>
                 <span>Hyper-reality Fiction</span>
                 <span>Reality Hacking</span>
-                <span>Brain-gridning Literature</span>
+                <span>Brain-grinding Literature</span>
                 <span>Fitness</span>
                 <span>Video Games</span>
                 <span>Quantum Physics</span>
@@ -156,29 +156,108 @@
 
     </section>
 
-    <section>
-      <div id="gallery"></div>
-    </section>
-
-    <footer>
-      <div class="contact">
-        <h1>Get in touch</h1>
-        <div>
-          <div class="contact__slack">
-            <h6>Join my slack channel</h6>
-            <a href="//reality-hackers.slack.com/signup">
-              <img src="/public/images/slack.png" alt="Slack Logo" title="Join my slack channel" />
-            </a>
+    <section class="portfolio" id="portfolio">
+      <div class="centered">
+        <div class="portfolio__title">
+          <h1 class="magenta bold">Enterprise Coding Skills<br/>Ad Agency Design talent</h1>
+          <i class="fa fa-plus fa-4x ml20" aria-hidden="true"></i>
+        </div>
+        <h2 class="portfolio_subtitle">I take projects from concepts to comps to code,<br/>and anywhere between.</h2>
+        <div class="portfolio__sample-title">
+          <h3>Sample Work</h3>
+          <button class="button outline"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Download Resume</button>
+        </div>
+        <div class="gallery" id="gallery"><!-- React Container --></div>
+        <div class="skills">
+          <div class="skills__programming">
+            <h1>Programming</h1>
+            <p>I am a computer science <a href="//www.infoq.com/articles/paradigm-based-polyglot-prog" target="_blank">polyglot</a> well-versed in many object-oriented and functional languages (in order of most experience).</p>
+            <ul class="skills__list">
+              <li>Javascript</li>
+              <li>Ruby/Rails</li>
+              <li>iOS/Objective-C/Swift</li>
+              <li>Java</li>
+              <li>SQL/NoSQL</li>
+              <li>OpenGL/Shaders</li>
+              <li>C#</li>
+              <li>C/C++</li>
+              <li>Rust</li>
+              <li>Elm</li>
+              <li><span class="skills_deprecated">Actionscript (Deprecated)<span></li>
+            </ul>
+            <p>I am a <a href="https://en.wikipedia.org/wiki/Software_design_pattern" target="_blank">design pattern junky</a>, and while I love rolling my own code, I embrace brilliant framework creators and service providers. Here are a few libraries, patterns, and services I use most.</p>
+            <ul class="skills__list">
+              <li>React/React Native</li>
+              <li>Redux</li>
+              <li>Node.js</li>
+              <li>Webpack</li>
+              <li>AWS</li>
+              <li>GraphQL/Relay</li>
+              <li>Object-Oriented Programming</li>
+              <li>Clear Separation of Concerns (MVC)</li>
+              <li>Functional Programing (lodash/RX)</li>
+              <li>Reusability and Dont-Repeat-Yourself (DRY)</li>
+              <li>TDD</li>
+              <li>Agile</li>
+              <li class="mt20 mb20">&lt;insert web framework here, i.e. Angular, Backbone, Ember, etc.&gt;</li>
+            </ul>
+            <p>And tooling</p>
+            <ul class="skills__list">
+              <li>Sublime Text</li>
+              <li>Atom.io</li>
+              <li>Xcode</li>
+              <li>VIM</li>
+              <li>iTerm</li>
+              <li>Git</li>
+            </ul>
           </div>
-          <div class="contact__email">
-            <h6>shoot me an email</h6>
-            <a href="mailto:hey@leonardsouza.com" class="contact--mail">hey@leonardsouza.com</a>
+          <div class="skills__design">
+            <h1>Design</h1>
+            <p>I am a Fine Art graduate who studied painting and have relentlessly developed the ability to create visual experiences. I’ve worked hard to translate these skills to interaction design.</p>
+            <ul class="skills__list">
+              <li>HTML5/CSS3</li>
+              <li>BEM/SASS/PostCSS</li>
+              <li>Responsive, Mobile-First Design</li>
+              <li>Wireframe/Prototypes</li>
+              <li>User Testing</li>
+              <li>QA</li>
+            </ul>
+            <p>
+              As a software engineer I tend to easily learn new tools and relish that process. Here are a few I use often:
+            </p>
+            <ul class="skills__list">
+              <li>Adobe Creative Suite (Photoshop, Illustrator, After Effects, Premiere)</li>
+              <li>Sketch</li>
+              <li>Luxology Modo</li>
+              <li>Scrivener</li>
+              <li>Ableton Live</li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="legal">
-        <span>©<script type="text/javascript">document.write(new Date().getFullYear());</script></span>
-        <p>Leonard Souza</p>
+    </section>
+
+    <footer>
+      <div class="footer centered">
+        <div class="contact" id="contact">
+          <h1 class="bold teal mb0">Get in touch</h1>
+          <div class="contact__channels">
+            <div class="contact__slack">
+              <h4>join my channel</h4>
+              <a href="//reality-hackers.slack.com/signup" target="_blank">
+                <img src="/public/images/slack.png" alt="Slack Logo" title="Join my slack channel" />
+              </a>
+            </div>
+            <div class="contact__email">
+              <h4>shoot me an email</h4>
+              <a href="mailto:hey@leonardsouza.com" class="contact_mail" target="_top">hey@leonardsouza.com&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="legal">
+          <span>©<script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+          <p class="no-pad no-margin">Leonard Souza</p>
+        </div>
       </div>
     </footer>
 

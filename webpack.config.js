@@ -7,6 +7,7 @@ const postcssMixins = require('postcss-mixins');
 const postcssBEM = require('postcss-bem')({style: 'bem'});
 const postcssNested = require('postcss-nested');
 const colorFunctions = require('postcss-color-function');
+const postcssImport = require('postcss-import');
 
 const BUILD_DIR = path.resolve(__dirname, 'public');
 const APP_DIR = path.resolve(__dirname, 'src');
@@ -22,13 +23,18 @@ const config = {
       {
         test : /\.jsx?/,
         include : APP_DIR,
+        exclude: /node_modules/,
         loader : 'babel'
       },
-      { test: /\.css$/, loader: "style-loader!css-loader!postcss-loader" }
+      { test: /\.css$/, loader: "style-loader!css-loader!postcss-loader" },
+      {
+        test: /masonry|imagesloaded|fizzy\-ui\-utils|desandro\-|outlayer|get\-size|doc\-ready|eventie|eventemitter/,
+        loader: 'imports?define=>false&this=>window'
+      }
     ]
   },
   postcss: function () {
-      return [precss, autoprefixer, postcssMixins, simpleVars, colorFunctions, postcssBEM, postcssNested];
+      return [precss, autoprefixer, postcssImport({addDependencyTo: webpack}), postcssMixins, simpleVars, colorFunctions, postcssBEM, postcssNested];
   }
 };
 

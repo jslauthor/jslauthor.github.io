@@ -1,0 +1,10 @@
+@component gallery {
+
+  @modifier item {
+    background-color: black;
+    width: 40px;
+    height: 90px;
+    margin-bottom: 10px;
+  }
+
+}
