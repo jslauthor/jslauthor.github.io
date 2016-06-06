@@ -517,6 +517,7 @@ form {
   @descendent sample-title {
     color: $teal;
     margin: 60px 0;
+    line-height: 2;
     h3 {
       @mixin slabFont;
       text-transform: none;
@@ -525,6 +526,10 @@ form {
       margin-right: 50px;
       color: $base_color;
     }
+  }
+
+  @modifier download-btn {
+    margin: 0;
   }
 
 }
