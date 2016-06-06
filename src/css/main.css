@@ -1,6 +1,9 @@
 @import './vars.css';
 @import './gallery.css';
 
+@custom-media --small-viewport (max-width: 450px);
+@custom-media --medium-viewport (max-width: 1155px);
+
 /* Mixins */
 
 @define-mixin font $name: museo-sans, $weight: 500, $style: normal {
@@ -183,7 +186,7 @@ section, footer {
   min-height: 100px;
   background-color: $bg_color;
   margin: $base_margin 0;
-  padding: $base_margin;
+  padding: calc($base_margin * 2);
 }
 
 .centered {
@@ -198,18 +201,30 @@ section, footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (--medium-viewport) {
+      flex-direction: column;
+    }
   }
 
   @modifier h1 {
     width: 100%;
     max-width: 500px;
     margin-right: 50px;
+    @media (--medium-viewport) {
+      max-width: 700px;
+      margin-bottom: 30px;
+      margin-right: 0;
+      font-size: 35px;
+    }
   }
 
   @descendent mailing-list {
     flex-grow: 1;
     max-width: 700px;
     font-size: 18px;
+    /*@media (--medium-viewport) {
+      max-width: none;
+    }*/
   }
 
   @descendent logos {
@@ -240,6 +255,7 @@ section, footer {
   @descendent copy {
     flex-grow: 1;
     max-width: 590px;
+    margin-right: 30px;
   }
 
   @descendent personality {
@@ -252,6 +268,15 @@ section, footer {
     h2 { font-weight: 900; }
     h3 { font-weight: 900; text-transform: none; font-size: 20px; }
     h4 { font-size: 20px; margin-bottom: 10px; }
+    @media (--medium-viewport) {
+       max-width: 300px;
+    }
+  }
+
+  @modifier strengths {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
   }
 
   @descendent list {
@@ -412,6 +437,7 @@ form {
 
   @modifier subtitle {
     font-weight: 500;
+    max-width: 1100px;
   }
 
   @descendent sample-title {
@@ -439,6 +465,9 @@ form {
 @component contact {
   @descendent channels {
     display: flex;
+    @media (--medium-viewport) {
+      flex-direction: column;
+    }
   }
 
   h4 {
@@ -448,6 +477,9 @@ form {
 
   @descendent email {
     margin-left: 40px;
+    @media (--medium-viewport) {
+      margin-left: 0;
+    }
   }
 
   @modifier mail {
@@ -500,3 +532,5 @@ form {
 .fa-facebook-official {
   color: #3b5998;
 }
+
+.mc { margin: 0 auto; }

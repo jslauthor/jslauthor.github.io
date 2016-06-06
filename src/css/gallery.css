@@ -1,11 +1,16 @@
 @import "image-gallery.css";
 
-$card_space: 8px;
+@custom-media --gallery-medium (max-width: 1150px);
 
 @component gallery {
 
   margin: 30px 0;
   p {margin: 0; padding: 0;}
+
+  @modifier img {
+    width: 100%;
+    height: auto;
+  }
 
   @descendent component {
     position: relative;
@@ -15,7 +20,7 @@ $card_space: 8px;
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     width: 100%; height: 100%;
-    background: #000;
+    background: rgba(0, 0, 0, 0.45);
   }
 
   @modifier masonry-item {
@@ -25,8 +30,11 @@ $card_space: 8px;
     border-radius: 3px;
     box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.45);
     cursor: pointer;
-    max-width: 330px;
+    width: 330px;
     font-size: 12px;
+    @media (--gallery-medium) {
+      width: 310px;
+    }
   }
 
   @descendent slider {
@@ -46,7 +54,7 @@ $card_space: 8px;
     border-top: 1px solid color($base_color lightness(90%));
     font-weight: 900;
     padding: $card_space;
-    a {text-decoration: none; color: $base_color;}
+    a {text-decoration: none; color: $base_color; }
     p { display: inline; }
     i { color: $magenta; }
     .fa-external-link { font-size: 12px; }

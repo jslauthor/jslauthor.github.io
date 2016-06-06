@@ -11,7 +11,8 @@ import marked from 'marked';
 const {images} = require('!json!./images_list.json');
 
 const masonryOptions = {
-  gutter: 25
+  gutter: 25,
+  fitWidth: true
 };
 
 const sliderOptions = {
@@ -53,7 +54,7 @@ class App extends React.Component {
     const masonryChildren = images.map((i, idx) => {
       return (
         <div key={idx} className="gallery_masonry-item">
-          <img src={`${i.thumbnail}`} onClick={partial(this.showOverlay, idx)} />
+          <img className="gallery_img" src={`${i.thumbnail}`} onClick={partial(this.showOverlay, idx)} />
           {!isEmpty(i.description) && <div className="gallery_desc" dangerouslySetInnerHTML={{__html:marked(i.description)}}></div>}
           {!isEmpty(i.client) &&
             <div className="gallery_client">
@@ -65,7 +66,7 @@ class App extends React.Component {
 
     return (
       <div className="gallery__component">
-        <Masonry options={masonryOptions}>
+        <Masonry options={masonryOptions} className="mc">
           {masonryChildren}
         </Masonry>
         { this.state.showOverlay &&

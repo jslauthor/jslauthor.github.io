@@ -8,6 +8,7 @@ const postcssBEM = require('postcss-bem')({style: 'bem'});
 const postcssNested = require('postcss-nested');
 const colorFunctions = require('postcss-color-function');
 const postcssImport = require('postcss-import');
+const customMedia = require('postcss-custom-media');
 
 const BUILD_DIR = path.resolve(__dirname, 'public');
 const APP_DIR = path.resolve(__dirname, 'src');
@@ -43,7 +44,8 @@ const config = {
         simpleVars,
         colorFunctions,
         postcssBEM,
-        postcssNested
+        postcssNested,
+        customMedia
       ];
   }
 };

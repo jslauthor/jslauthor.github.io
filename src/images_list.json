@@ -24,112 +24,128 @@
     {
       "original": "/public/images/portfolio/egghead2_0_loading.jpg",
       "thumbnail": "/public/images/portfolio/egghead2_0_loading_thumb.jpg",
-      "description": "Egghead 2.0 UI Loading",
+      "description": "Egghead 2.0 UI Loading and roll-over state. Thought it was cute.",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egghead_playlist_editor.jpg",
       "thumbnail": "/public/images/portfolio/egghead_playlist_editor_thumb.jpg",
-      "description": "Optional description...",
+      "description": "Users create custom playlists for themselves and others with this wonderful component. I designed it, then built it with React, Alt (pre-redux), React Drag-and-Drop, React Router and fetch. It ties into an API I wrote in Ruby. **#ux** **#design** **#code** **#A-Z**",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_testimonials.jpg",
       "thumbnail": "/public/images/portfolio/egh_testimonials_thumb.jpg",
-      "description": "Optional description...",
+      "description": "Egghead Testimonials",
       "client": "egghead.io",
-      "clientLink": "http://www.egghead.io"
+      "clientLink": "http://www.egghead.io/stories"
     },
     {
       "original": "/public/images/portfolio/egh_courses.jpg",
       "thumbnail": "/public/images/portfolio/egh_courses_thumb.jpg",
-      "description": "Optional description...",
+      "description": "The course checklist component. Built on React, Redux and SVG. **#ux** **#design** **#coding** **#A-Z**",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_meganav.jpg",
       "thumbnail": "/public/images/portfolio/egh_meganav_thumb.jpg",
-      "description": "Optional description...",
+      "description": "An information architecture challenge, the egghead header needed an upgrade to help surface content. **#ux** **#ia** **#design**",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_search.jpg",
       "thumbnail": "/public/images/portfolio/egh_search_thumb.jpg",
-      "description": "Optional description...",
+      "description": "I designed the new search page and retooled the underlying search engine to run on ElasticSearch. Integrated with Rails. **#ux** **#design** **#coding** **#A-Z**",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_course_theater_home.jpg",
       "thumbnail": "/public/images/portfolio/egh_course_theater_home_thumb.jpg",
-      "description": "Optional description...",
+      "description": "Egghead wanted an single-page course viewing experience that highlighted the series of videos, kept track of progress, while remaining beautiful and function. Interface built with React/Redux. **#ux** **#coding** **#design** **#A-Z**",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_course_theater.jpg",
       "thumbnail": "/public/images/portfolio/egh_course_theater_thumb.jpg",
-      "description": "Optional description...",
+      "description": "The course theater also enabled users to take notes while progressing through a course. **#ux** **#coding** **#design** **#A-Z**",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_render.jpg",
       "thumbnail": "/public/images/portfolio/egh_render_thumb.jpg",
-      "description": "A render I created in Modo on which the new logo is based.",
+      "description": "A render I created in Modo on which egghead's logo is based. **#design** **#3D**",
       "client": "egghead.io",
       "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/bleeding_ink.jpg",
       "thumbnail": "/public/images/portfolio/bleeding_ink_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Designed and coded from scratch, I created Bleeding Ink as a podcast to help writers. It is a React/Alt application written on top of a Ruby API. Would have preferred Node.js, but I needed to sharpen my rails skills. Visit the site and stare at the logo, it has a custom WebGL shader I wrote that's neat. **#ux** **#design** **#coding**",
+      "client": "Bleeding Ink",
+      "clientLink": "http://www.bleedingink.fm"
     },
     {
       "original": "/public/images/portfolio/bleeding_ink_logo.jpg",
       "thumbnail": "/public/images/portfolio/bleeding_ink_logo_thumb.jpg",
-      "description": "Optional description..."
+      "description": "I created Bleeding Ink's logo and thumbnail preview with Modo, RealFlow and Photoshop. **#design** **#3D**",
+      "client": "Bleeding Ink",
+      "clientLink": "http://www.bleedingink.fm"
     },
     {
       "original": "/public/images/portfolio/jsl.jpg",
       "thumbnail": "/public/images/portfolio/jsl_thumb.jpg",
-      "description": "Optional description..."
+      "description": "My author website. It is a Keystone.js/Node.js app with React components. I created the low-poly render in Modo.  **#design** **#3D** **#dev** **#A-Z**",
+      "client": "J.S. Leonard",
+      "clientLink": "http://www.jslauthor.com"
     },
     {
       "original": "/public/images/portfolio/stellar.jpg",
       "thumbnail": "/public/images/portfolio/stellar_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Stellar is a desktop menubar application (crossplatform) that I created. It monitors author reviews on Amazon.com and Gooodreads. Built with NW.js/node/React. I now prefer Electron. **#design** **#dev** **#A-Z**",
+      "client": "J.S. Leonard",
+      "clientLink": "http://www.jslauthor.com/tools/stellar"
     },
     {
       "original": "/public/images/portfolio/spatialkey_flood.jpg",
       "thumbnail": "/public/images/portfolio/spatialkey_flood_thumb.jpg",
-      "description": "Optional description..."
+      "description": "I spent over three years as an experience engineer at SpatialKey. It is an enterprise Flex application responsible for managing billion dollar plus portfolios. There I acted as designer, data-visualization creater, coder and UX specialist. This particular screenshot demonstrates the Flood App, which enabled underwriters to assess the risk of flood damage. **#enterprise** **#dev** **#design** **#dataviz**",
+      "client": "SpatialKey",
+      "clientLink": "http://www.spatialkey.com"
     },
     {
       "original": "/public/images/portfolio/spatialkey_comparison.jpg",
       "thumbnail": "/public/images/portfolio/spatialkey_comparison_thumb.jpg",
-      "description": "Optional description..."
+      "description": "I spent over three years as an experience engineer at SpatialKey. Among the many areas of the app that I worked on, this particular screenshot demonstrates the comparison portfolio, which allows underwriters to run different analyses on the same portfolio and assess risk from multiple angles. **#enterprise** **#dev** **#design** **#dataviz**",
+      "client": "SpatialKey",
+      "clientLink": "http://www.spatialkey.com"
     },
     {
       "original": "/public/images/portfolio/spatialkey_laptop.jpg",
       "thumbnail": "/public/images/portfolio/spatialkey_laptop_thumb.jpg",
-      "description": "Optional description..."
+      "description": "I created a storm \"drawing tool\" that enabled insurance providers to sketch potential storms and assess their risk. The tool was designed from the ground up to be dead simple to use. **#enterprise** **#dev** **#design** **#dataviz**",
+      "client": "SpatialKey",
+      "clientLink": "http://www.spatialkey.com"
     },
     {
       "original": "/public/images/portfolio/boeing.jpg",
       "thumbnail": "/public/images/portfolio/boeing_thumb.jpg",
-      "description": "Boeing needed a way to manage it's numerous (400+!) internal processes and systems. I built a beautiful prototype that helped them wrap their minds around the requirements. **#prototype** **#design** **#code**",
+      "description": "Boeing needed a way to manage its numerous (400+!) internal processes and systems. I built a beautiful prototype that helped them wrap their minds around the requirements. **#prototype** **#design** **#code**",
       "client": "Boeing",
       "clientLink": "http://www.boeing.com"
     },
     {
       "original": "/public/images/portfolio/journey_map.jpg",
       "thumbnail": "/public/images/portfolio/journey_map_thumb.jpg",
-      "description": "Optional description..."
+      "description": "A gorgeous customer journey map that I created. **#ux** **#design**",
+      "client": "Boeing",
+      "clientLink": "http://www.boeing.com"
     },
     {
       "original": "/public/images/portfolio/navy_fed.jpg",
