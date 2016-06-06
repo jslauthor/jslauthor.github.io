@@ -72,6 +72,7 @@ p {
 }
 
 body, html {
+  font-family: Helvetica, Arial, Sans-Serif;
   padding: 0;
   margin: 0;
   position: relative;
