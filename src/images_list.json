@@ -3,62 +3,86 @@
     {
       "original": "/public/images/portfolio/egghead2_0_list.jpg",
       "thumbnail": "/public/images/portfolio/egghead2_0_list_thumb.jpg",
-      "description": "Egghead 2.0 UI"
+      "description": "Comps for the future of egghead.io. Here is the technology list. Up top you'll notice the user's score.",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egghead2_0.jpg",
       "thumbnail": "/public/images/portfolio/egghead2_0_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Egghead 2.0 UI Player",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egghead2_0_menu.jpg",
       "thumbnail": "/public/images/portfolio/egghead2_0_menu_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Egghead 2.0 UI List",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egghead2_0_loading.jpg",
       "thumbnail": "/public/images/portfolio/egghead2_0_loading_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Egghead 2.0 UI Loading",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egghead_playlist_editor.jpg",
       "thumbnail": "/public/images/portfolio/egghead_playlist_editor_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Optional description...",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_testimonials.jpg",
       "thumbnail": "/public/images/portfolio/egh_testimonials_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Optional description...",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_courses.jpg",
       "thumbnail": "/public/images/portfolio/egh_courses_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Optional description...",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_meganav.jpg",
       "thumbnail": "/public/images/portfolio/egh_meganav_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Optional description...",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_search.jpg",
       "thumbnail": "/public/images/portfolio/egh_search_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Optional description...",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_course_theater_home.jpg",
       "thumbnail": "/public/images/portfolio/egh_course_theater_home_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Optional description...",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_course_theater.jpg",
       "thumbnail": "/public/images/portfolio/egh_course_theater_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Optional description...",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/egh_render.jpg",
       "thumbnail": "/public/images/portfolio/egh_render_thumb.jpg",
-      "description": "Optional description..."
+      "description": "A render I created in Modo on which the new logo is based.",
+      "client": "egghead.io",
+      "clientLink": "http://www.egghead.io"
     },
     {
       "original": "/public/images/portfolio/bleeding_ink.jpg",
@@ -98,12 +122,35 @@
     {
       "original": "/public/images/portfolio/boeing.jpg",
       "thumbnail": "/public/images/portfolio/boeing_thumb.jpg",
-      "description": "Optional description..."
+      "description": "Boeing needed a way to manage it's numerous (400+!) internal processes and systems. I built a beautiful prototype that helped them wrap their minds around the requirements. **#prototype** **#design** **#code**",
+      "client": "Boeing",
+      "clientLink": "http://www.boeing.com"
     },
     {
       "original": "/public/images/portfolio/journey_map.jpg",
       "thumbnail": "/public/images/portfolio/journey_map_thumb.jpg",
       "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/navy_fed.jpg",
+      "thumbnail": "/public/images/portfolio/navy_fed_thumb.jpg",
+      "description": "Navy Federal wanted mobile deposit back when other banks didn't. They got what they wanted.",
+      "client": "Navy Federal",
+      "clientLink": "https://www.navyfederal.org/"
+    },
+    {
+      "original": "/public/images/portfolio/level3.jpg",
+      "thumbnail": "/public/images/portfolio/level3_thumb.jpg",
+      "description": "Level 3 needed a portal to manage network outages. I was asked to create wireframes, user flows and the final design. The app turned out great! **#ux** **#design**",
+      "client": "Level 3",
+      "clientLink": "https://www.level3.com/"
+    },
+    {
+      "original": "/public/images/portfolio/intel.jpg",
+      "thumbnail": "/public/images/portfolio/intel_thumb.jpg",
+      "description": "Wireframes and final designs for Intel's developer program. **#ux** **#design**",
+      "client": "Intel",
+      "clientLink": "https://www.Intel.com/"
     }
 
   ]

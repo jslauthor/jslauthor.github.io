@@ -6,11 +6,12 @@ import {render} from 'react-dom';
 import Masonry from 'react-masonry-component';
 import isEmpty from 'lodash/isEmpty';
 import partial from 'lodash/partial';
+import marked from 'marked';
 
 const {images} = require('!json!./images_list.json');
 
 const masonryOptions = {
-  gutter: 10
+  gutter: 25
 };
 
 const sliderOptions = {
@@ -53,13 +54,17 @@ class App extends React.Component {
       return (
         <div key={idx} className="gallery_masonry-item">
           <img src={`${i.thumbnail}`} onClick={partial(this.showOverlay, idx)} />
-          {!isEmpty(i.description) && <div>{i.description}</div>}
+          {!isEmpty(i.description) && <div className="gallery_desc" dangerouslySetInnerHTML={{__html:marked(i.description)}}></div>}
+          {!isEmpty(i.client) &&
+            <div className="gallery_client">
+              <a href={i.clientLink} target="_blank">{i.client}&nbsp;&nbsp;<i className="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>}
         </div>
       );
     });
 
     return (
-      <div className="galley__component">
+      <div className="gallery__component">
         <Masonry options={masonryOptions}>
           {masonryChildren}
         </Masonry>

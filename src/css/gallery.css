@@ -1,8 +1,11 @@
 @import "image-gallery.css";
 
+$card_space: 8px;
+
 @component gallery {
 
   margin: 30px 0;
+  p {margin: 0; padding: 0;}
 
   @descendent component {
     position: relative;
@@ -17,12 +20,13 @@
 
   @modifier masonry-item {
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     overflow: hidden;
-    border-radius: 6px;
-    padding: 10px;
+    border-radius: 3px;
     box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.45);
     cursor: pointer;
+    max-width: 330px;
+    font-size: 12px;
   }
 
   @descendent slider {
@@ -32,6 +36,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @modifier desc {
+    padding: $card_space;
+  }
+
+  @modifier client {
+    border-top: 1px solid color($base_color lightness(90%));
+    font-weight: 900;
+    padding: $card_space;
+    a {text-decoration: none; color: $base_color;}
+    p { display: inline; }
+    i { color: $magenta; }
+    .fa-external-link { font-size: 12px; }
   }
 
 }
