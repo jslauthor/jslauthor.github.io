@@ -119,6 +119,11 @@ h5 {
   padding: 0;
 }
 
+h6 {
+  margin: 0;
+  font-size: 15px;
+}
+
 @component navigation {
   display: flex;
   justify-content: space-between;
@@ -490,4 +495,8 @@ form {
     font-style: italic;
   }
 
+}
+
+.fa-facebook-official {
+  color: #3b5998;
 }

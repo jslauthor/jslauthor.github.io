@@ -30,7 +30,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       selectedImage: 0,
-      showOverlay: true
+      showOverlay: false
     };
   }
 

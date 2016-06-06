@@ -19,6 +19,92 @@
       "original": "/public/images/portfolio/egghead2_0_loading.jpg",
       "thumbnail": "/public/images/portfolio/egghead2_0_loading_thumb.jpg",
       "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egghead_playlist_editor.jpg",
+      "thumbnail": "/public/images/portfolio/egghead_playlist_editor_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egh_testimonials.jpg",
+      "thumbnail": "/public/images/portfolio/egh_testimonials_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egh_courses.jpg",
+      "thumbnail": "/public/images/portfolio/egh_courses_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egh_meganav.jpg",
+      "thumbnail": "/public/images/portfolio/egh_meganav_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egh_search.jpg",
+      "thumbnail": "/public/images/portfolio/egh_search_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egh_course_theater_home.jpg",
+      "thumbnail": "/public/images/portfolio/egh_course_theater_home_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egh_course_theater.jpg",
+      "thumbnail": "/public/images/portfolio/egh_course_theater_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/egh_render.jpg",
+      "thumbnail": "/public/images/portfolio/egh_render_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/bleeding_ink.jpg",
+      "thumbnail": "/public/images/portfolio/bleeding_ink_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/bleeding_ink_logo.jpg",
+      "thumbnail": "/public/images/portfolio/bleeding_ink_logo_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/jsl.jpg",
+      "thumbnail": "/public/images/portfolio/jsl_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/stellar.jpg",
+      "thumbnail": "/public/images/portfolio/stellar_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/spatialkey_flood.jpg",
+      "thumbnail": "/public/images/portfolio/spatialkey_flood_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/spatialkey_comparison.jpg",
+      "thumbnail": "/public/images/portfolio/spatialkey_comparison_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/spatialkey_laptop.jpg",
+      "thumbnail": "/public/images/portfolio/spatialkey_laptop_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/boeing.jpg",
+      "thumbnail": "/public/images/portfolio/boeing_thumb.jpg",
+      "description": "Optional description..."
+    },
+    {
+      "original": "/public/images/portfolio/journey_map.jpg",
+      "thumbnail": "/public/images/portfolio/journey_map_thumb.jpg",
+      "description": "Optional description..."
     }
+
   ]
 }
