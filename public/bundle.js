@@ -180,7 +180,9 @@
 	  return App;
 	}(_react2.default.Component);
 
-	(0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('gallery'));
+	window.onload = function () {
+	  (0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('gallery'));
+	};
 
 /***/ },
 /* 1 */

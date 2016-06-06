@@ -81,4 +81,4 @@ class App extends React.Component {
   }
 }
 
-render(<App/>, document.getElementById('gallery'));
+window.onload = () => { render(<App/>, document.getElementById('gallery')); }
