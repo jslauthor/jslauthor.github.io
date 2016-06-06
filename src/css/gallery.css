@@ -4,7 +4,7 @@
 
 @component gallery {
 
-  margin: 30px 0;
+  margin: 10px 0;
   p {margin: 0; padding: 0;}
 
   @modifier img {
@@ -35,6 +35,13 @@
     @media (--gallery-medium) {
       width: 310px;
     }
+    @media (max-width: 741px) {
+       width: 250px;
+    }
+    @media (max-width: 620px) {
+       max-width: 330px;
+       width: 100%;
+    }
   }
 
   @descendent slider {
@@ -44,6 +51,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @descendent close {
+    color: white;
+    position: absolute;
+    z-index: 12;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
   }
 
   @modifier desc {

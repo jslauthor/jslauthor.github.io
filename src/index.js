@@ -73,6 +73,7 @@ class App extends React.Component {
           <div className="gallery__slider">
             <div className="gallery__bg" onClick={this.hideOverlay}></div>
             <ImageGallery items={images} startIndex={this.state.selectedImage} />
+            <i className="fa fa-times-circle fa-2x gallery__close" onClick={this.hideOverlay}></i>
           </div>
         }
       </div>

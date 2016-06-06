@@ -6,7 +6,9 @@
   -o-user-select: none;
   user-select: none;
   background: none;
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
   max-width: 1200px;
   /*height: 100%;*/
 }
@@ -106,6 +108,11 @@
   overflow: hidden;
   padding: 5px 0;
   margin-top: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
   .image-gallery-thumbnails .image-gallery-thumbnails-container {

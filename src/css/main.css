@@ -83,7 +83,7 @@ body, html {
   align-items: stretch;
   @mixin font;
   color: $base_color;
-  overflow-y: scroll; /* has to be scroll, not auto */
+
   -webkit-overflow-scrolling: touch;
 }
 
@@ -92,6 +92,9 @@ h1 {
   line-height: 1.25;
   margin: 15px 0;
   padding: 0;
+  @media (max-width: 420px) {
+    font-size: 35px;
+  }
 }
 
 .bold {
@@ -103,6 +106,9 @@ h2 {
   line-height: 1.25;
   margin: 15px 0;
   padding: 0;
+  @media (max-width: 420px) {
+    font-size: 30px;
+  }
 }
 
 h3 {
@@ -344,6 +350,9 @@ section, footer {
   @descendent list {
     font-size: 25px;
     padding-left: 5px;
+    @media (max-width: 400px) {
+      font-size: 18px;
+    }
   }
 
   @modifier list-item {
@@ -358,6 +367,9 @@ section, footer {
       font-size: 60px;
       content:counter(li);
       counter-increment:li;
+      @media (max-width: 400px) {
+        font-size: 40px;
+      }
     }
   }
 
@@ -551,6 +563,9 @@ form {
     &:hover {
       color: $magenta;
     }
+    @media (max-width: 550px) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -559,12 +574,24 @@ form {
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 40px;
+   @media (max-width: 690px) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    .legal {
+      margin-top: 40px;
+    }
+  }
 }
 
 @component skills {
   display: flex;
   font-size: 20px;
   margin-bottom: 40px;
+
+  @media (max-width: 690px) {
+    flex-direction: column;
+  }
 
   @descendent programming {
     flex-grow: 1;
@@ -576,6 +603,9 @@ form {
     flex-grow: 1;
     width: 100%;
     margin-left: 40px;
+    @media (max-width: 690px) {
+      margin-left: 0;
+    }
   }
 
   @descendent list {
