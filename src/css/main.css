@@ -488,6 +488,11 @@ form {
   border-radius: $default_radius;
   box-shadow:0px 2px 13px 0px rgba(109,35,35,0.20);
 
+  @modifier ih {
+    display: inline;
+    vertical-align: middle
+  }
+
   @modifier header {
     padding: 15px;
     text-align: center;
