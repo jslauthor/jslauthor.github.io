@@ -30643,6 +30643,13 @@
 				"clientLink": "https://www.navyfederal.org/"
 			},
 			{
+				"original": "/public/images/portfolio/arc_int.jpg",
+				"thumbnail": "/public/images/portfolio/arc_int_thumb.jpg",
+				"description": "My SXSW presenation where Sean Coulter and I explore the intersection between architecture and interaction design. **#design** **#phenomenology** **#interaction**",
+				"client": "Huffington Post Coverage",
+				"clientLink": "http://www.huffingtonpost.com/2012/03/11/sxsw-2012_n_1333025.html"
+			},
+			{
 				"original": "/public/images/portfolio/level3.jpg",
 				"thumbnail": "/public/images/portfolio/level3_thumb.jpg",
 				"description": "Level 3 needed a portal to manage network outages. I was asked to create wireframes, user flows and the final design. The app turned out great! **#ux** **#design**",
