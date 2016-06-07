@@ -210,6 +210,9 @@ h6 {
   width: 100%;
   height: auto;
   min-width: 200px;
+  @media (max-width: 400px) {
+    margin: 0 calc($base_margin/2);
+  }
 }
 
 #trianglify {
@@ -228,6 +231,10 @@ section, footer {
   background-color: $bg_color;
   margin: $base_margin 0;
   padding: calc($base_margin * 2);
+  @media (max-width: 400px) {
+    margin: calc($base_margin/2) 0;
+    padding: $base_margin;
+  }
 }
 
 .centered {
