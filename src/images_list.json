@@ -88,8 +88,15 @@
       "original": "/public/images/portfolio/molehill.jpg",
       "thumbnail": "/public/images/portfolio/molehill_thumb.jpg",
       "description": "One of my presentations. I hacked the Kinect back when all the cool kids were doing it. Wrote a server in Java to translate Kinect bytecode from NI/Cinder into stream data that any app could consume. I was deep into Flash at the time and leveraged the new hardware vertex shaders in Molehill to replicated the old XBox interface. Check it out. **#hightech** **#design** **#coding** **#creativetechnologist** **#A-Z**",
-      "client": "Presentation and video",
+      "client": "Presentation and Video",
       "clientLink": "http://www.effectiveui.com/blog/2011/04/29/microsoft-kinect-and-molehill/"
+    },
+    {
+      "original": "/public/images/portfolio/art_interaction.jpg",
+      "thumbnail": "/public/images/portfolio/art_interaction_thumb.jpg",
+      "description": "By far my favorite presenation. Here I dissect the fundamentals of experience design with cognitive science. [Slides here](http://www.slideshare.net/effectiveui/the-art-of-interaction-9996173). **#design** **#interaction** **#creativetechnologist** **#A-Z**",
+      "client": "Video Presentation",
+      "clientLink": "http://techchannel.att.com/play-video.cfm/2011/11/1/Conference-TV-Flash-and-the-City-The-Art-of-Interaction"
     },
     {
       "original": "/public/images/portfolio/bleeding_ink.jpg",
