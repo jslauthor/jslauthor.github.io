@@ -85,6 +85,13 @@
       "clientLink": "http://www.egghead.io"
     },
     {
+      "original": "/public/images/portfolio/molehill.jpg",
+      "thumbnail": "/public/images/portfolio/molehill_thumb.jpg",
+      "description": "One of my presentations. I hacked the Kinect back when all the cool kids were doing it. Wrote a server in Java to translate Kinect bytecode from NI/Cinder into stream data that any app could consume. I was deep into Flash at the time and leveraged the new hardware vertex shaders in Molehill to replicated the old XBox interface. Check it out. **#hightech** **#design** **#coding**",
+      "client": "Presentation and video",
+      "clientLink": "http://www.bleedingink.fm"
+    },
+    {
       "original": "/public/images/portfolio/bleeding_ink.jpg",
       "thumbnail": "/public/images/portfolio/bleeding_ink_thumb.jpg",
       "description": "Designed and coded from scratch, I created Bleeding Ink as a podcast to help writers. It is a React/Alt application written on top of a Ruby API. Would have preferred Node.js, but I needed to sharpen my rails skills. Visit the site and stare at the logo, it has a custom WebGL shader I wrote that's neat. **#ux** **#design** **#coding**",
