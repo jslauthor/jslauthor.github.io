@@ -30561,9 +30561,9 @@
 			{
 				"original": "/public/images/portfolio/molehill.jpg",
 				"thumbnail": "/public/images/portfolio/molehill_thumb.jpg",
-				"description": "One of my presentations. I hacked the Kinect back when all the cool kids were doing it. Wrote a server in Java to translate Kinect bytecode from NI/Cinder into stream data that any app could consume. I was deep into Flash at the time and leveraged the new hardware vertex shaders in Molehill to replicated the old XBox interface. Check it out. **#hightech** **#design** **#coding**",
+				"description": "One of my presentations. I hacked the Kinect back when all the cool kids were doing it. Wrote a server in Java to translate Kinect bytecode from NI/Cinder into stream data that any app could consume. I was deep into Flash at the time and leveraged the new hardware vertex shaders in Molehill to replicated the old XBox interface. Check it out. **#hightech** **#design** **#coding** **#creativetechnologist** **#A-Z**",
 				"client": "Presentation and video",
-				"clientLink": "http://www.bleedingink.fm"
+				"clientLink": "http://www.effectiveui.com/blog/2011/04/29/microsoft-kinect-and-molehill/"
 			},
 			{
 				"original": "/public/images/portfolio/bleeding_ink.jpg",
