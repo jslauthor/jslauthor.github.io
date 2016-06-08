@@ -629,8 +629,9 @@ form {
 
   @descendent list {
     font-weight: 700;
-    padding: 0px;
-    li { list-style: none; }
+    padding: 10px;
+    line-height: 1;
+    li { list-style: none; margin-bottom: 10px; }
   }
 
   @modifier deprecated {
