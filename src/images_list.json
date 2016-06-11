@@ -188,6 +188,13 @@
       "description": "Wireframes and final designs for Intel's developer program. **#ux** **#design**",
       "client": "Intel",
       "clientLink": "https://www.Intel.com/"
+    },
+    {
+      "original": "/public/images/portfolio/adobe_max.jpg",
+      "thumbnail": "/public/images/portfolio/adobe_max_thumb.jpg",
+      "description": "An app for Adobe that demonstrated Pixel Bender effects. I collaborated with the amazing Juan Sanchez and RJ Owen. **#opengl** **#development**",
+      "client": "Adobe (link to video)",
+      "clientLink": "http://rjria.blogspot.com/2010/10/max-volume-presentation-is-live.html"
     }
 
   ]
