@@ -1,6 +1,13 @@
 {
   "images": [
     {
+      "original": "/public/images/portfolio/cubic_bezier.jpg",
+      "thumbnail": "/public/images/portfolio/cubic_bezier_thumb.jpg",
+      "description": "I designed and created this cubic bezier editor for fun and to demonstrate the power of react/redux. Mostly everything is rendered with SVG!",
+      "client": "React/Redux Bezier Editor (Github)",
+      "clientLink": "https://github.com/jslauthor/react-bezier-component"
+    },
+    {
       "original": "/public/images/portfolio/audio_player.jpg",
       "thumbnail": "/public/images/portfolio/audio_player_thumb.jpg",
       "description": "Created this audio player to demonstrate the power of react/redux. I created the comp in Sketch, built the layout in PostCSS/SVG/BEM, and used React/Redux for the architecture. I wrote a React wrapper around HTML5 audio which made for easy integration!",
